@@ -27,7 +27,7 @@ public class QuestionService {
         String optionC = sc.nextLine();
         System.out.print("Enter option D: ");
         String optionD = sc.nextLine();
-        System.out.print("Enter the correct answer: ");
+        System.out.print("Enter the correct option: ");
         String answer = sc.nextLine();
 
         Question q = new Question(id,question,optionA,optionB,optionC,optionD,answer);
@@ -65,7 +65,7 @@ public class QuestionService {
             System.out.print("Enter option D (Enter to skip): ");
             String optionD = sc.nextLine();
             if(!optionD.isEmpty()) q.setOptionD(optionD);
-            System.out.print("Enter the correct answer (Enter to skip): ");
+            System.out.print("Enter the correct option (Enter to skip): ");
             String answer = sc.nextLine();
             if(!answer.isEmpty()) q.setCorrectAnswer(answer);
 

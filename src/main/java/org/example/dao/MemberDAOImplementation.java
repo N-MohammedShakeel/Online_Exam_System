@@ -4,7 +4,6 @@ import org.example.entity.Member;
 import org.example.util.DBConnectionUtil;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 
 public class MemberDAOImplementation implements MemberDao{
