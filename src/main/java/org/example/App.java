@@ -58,7 +58,7 @@ public class App
             System.out.println("\n1. Add Question");
             System.out.println("2. Update Question");
             System.out.println("3. View Questions");
-            System.out.println("4. Exit");
+            System.out.println("4. Back to Main Menu");
             System.out.print("Enter your choice : ");
             int choice = sc.nextInt();
             sc.nextLine();
@@ -102,7 +102,7 @@ public class App
 
             System.out.println("\n1. Register User");
             System.out.println("2. Give Exam");
-            System.out.println("3. Exit");
+            System.out.println("3. Back to Main Menu");
             System.out.print("Enter your choice : ");
             int choice = sc.nextInt();
             sc.nextLine();
